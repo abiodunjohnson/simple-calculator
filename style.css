@@ -1,0 +1,45 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.cal__num {
+    display: flex;
+    text-align: center;
+}
+
+.button {
+    width: 43px;
+    height: 40px;
+    font-size: 22px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.textview {
+    margin: 5px;
+    width: 168px;
+    font-size: 23px;
+    padding: 5px;
+}
+
+.zero {
+    width: 100px;
+}
+
+.button-zero {
+    width: 91px;
+    height: 40px;
+    font-size: 22px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.cal__body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}

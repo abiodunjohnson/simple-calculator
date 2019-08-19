@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" type="text/css" href="style.css">    
+    <!-- <link rel="icon" type="image/css" href="resources/image/fivicon.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+    
+    
+    <title>Calculator</title>
+  </head>
+  <body>
+        <div class="cal__body">
+            <form name="form">
+            <input class="textview" name="textview">   
+            </form>
+            <div class="cal__num">
+                <div><input class="button" type="button" value="C" onclick="clean()"></div>
+                <div><input class="button" type="button" value="<" onclick="back()"></div>
+                <div><input class="button" type="button" value="/" onclick="insert('/')"></div>
+                <div><input class="button" type="button" value="*" onclick="insert('*')"></div>
+            </div>
+
+            <div class="cal__num">
+                <div><input class="button" type="button" value="7" onclick="insert(7)"></div>
+                <div><input class="button" type="button" value="8" onclick="insert(8)"></div>
+                <div><input class="button" type="button" value="9" onclick="insert(9)"></div>
+                <div><input class="button" type="button" value="-" onclick="insert('-')"></div>
+            </div>
+
+            <div class="cal__num">
+                <div><input class="button" type="button" value="4" onclick="insert(4)"></div>
+                <div><input class="button" type="button" value="5" onclick="insert(5)"></div>
+                <div><input class="button" type="button" value="6" onclick="insert(6)"></div>
+                <div><input class="button" type="button" value="+" onclick="insert('+')"></div>
+            </div>
+
+            <div class="cal__num">
+                <div><input class="button" type="button" value="1" onclick="insert(1)"></div>
+                <div><input class="button" type="button" value="2" onclick="insert(2)"></div>
+                <div><input class="button" type="button" value="3" onclick="insert(3)"></div>
+                <div><input class="button" type="button" value="=" onclick="equal()"></div>
+            </div>
+            <div class="cal__num">
+                   
+                    <div><input class="button-zero" type="button" value="0" onclick="insert(0)"></div>
+                    <div><input class="button" type="button" value="." onclick="insert('.')"></div>
+                </div>
+        </div>
+
+        <script src="main.js"></script>
+  </body>
+</html>
